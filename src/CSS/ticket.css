@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.process {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.tickets_step{
+    color: red;
+}
+
+
+
+.ticket_event_info{
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 40px;
+    border-bottom: 2px solid black;
+}
+
+.tickets{
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ticket_name{
+    padding-right: 100px;
+}
+
+.num_control{
+   padding-left: 100px;
+}
+
+.price{
+    background: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkout_button{
+    padding-left: 100px;
+}

@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+.process {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.payment_step{
+    color: red;
+}
+
+.checkout_form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.left_side, .right_side {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 48%;
+    background-color: #f4f4f4;
+}
+
+.contact_form{
+    padding: 20px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+}
+
+.credit_card{
+    padding: 20px;
+    padding-top: 10px;
+    
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input{
+    width: calc(100%);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button, .submit_button button, .back_button button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    text-align: center;
+}
+
+.button:hover, .submit_button button:hover, .back_button button:hover {
+    background-color: #45a049;
+}
+
+.submit_button, .back_button {
+    margin-top: 20px;
+}

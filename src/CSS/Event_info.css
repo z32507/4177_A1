@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.event_body{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left, .right {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 48%;
+    background-color: #f4f4f4;
+}
+
+.right{
+    align-items: center;
+}
+
+.event_des{
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 2px solid black;
+}

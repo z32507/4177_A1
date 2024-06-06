@@ -1,0 +1,25 @@
+.success_summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: bisque;
+    margin: 100px;
+    margin-bottom: 50px;
+}
+
+.order_info{
+    padding: 30px;
+    margin: 100px;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+}
+
+.user_info{
+    border-bottom: 2px solid black;
+}
+
+.total_price{
+    border-top: 2px solid black;
+}
